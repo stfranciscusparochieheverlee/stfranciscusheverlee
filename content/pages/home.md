@@ -1,6 +1,7 @@
 ---
 seo:
-  description: ''
+  title: Start
+  description: Start pagina
 title: Start
 blocks:
   - bannerURL: 'https://status.stfranciscus-heverlee.org'
