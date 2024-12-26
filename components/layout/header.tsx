@@ -61,16 +61,6 @@ export const Header = ({ data, props }) => {
       <Head>
         <link rel="icon" href="/favicon.ico"/>
         {props.title !== undefined && <title>{props.title} @ Sint-Franciscusparochie</title>}
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-        <script type="text/javascript">
-          algoliasearchNetlify({
-            appId: '8W65VP6T7Y',
-            apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
-            siteId: 'f065dc5a-6c9b-4e3c-82b8-a3f548245d4a',
-            branch: 'main',
-            selector: 'div#search',
-        });
-</script>
       </Head>
       <div className="overflow-x-hidden flex flex-col smo:flex-row items-center text-xl font-weight-700 bg-liturgischekleur p-[15px] z-[5000]">
         <a href="/" className="no-underline"><img src="/icon-dark.svg" alt="header-icon" width="50px" className="mr-[10px] inline"/><span id="title">{props.title} @ St.-Franciscusparochie</span></a>
