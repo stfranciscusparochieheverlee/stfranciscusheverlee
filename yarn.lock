@@ -1334,10 +1334,10 @@
   dependencies:
     levn "^0.4.1"
 
-"@fileforge/pdfreader@^0.1.44":
-  version "0.1.44"
-  resolved "https://registry.yarnpkg.com/@fileforge/pdfreader/-/pdfreader-0.1.44.tgz#0e13f4c3174deb582937deb4412a43f11426bdeb"
-  integrity sha512-Dljg4RR9nFKLdTsd001YRDaog2K9B67hT/eu2LSWqiSLrdGNrTO0yoN0YbChSmFzo/yoF+NvgdsBf2Sw0P95dg==
+"@fileforge/pdfreader@^0.1.46":
+  version "0.1.46"
+  resolved "https://registry.yarnpkg.com/@fileforge/pdfreader/-/pdfreader-0.1.46.tgz#b4c1d51a448a91933be52ed90e22a2733ddbf9f0"
+  integrity sha512-FeRh/j85xZcZGbr0hEClcL4v3RHDo66wUUsROeibKQl1tjAZt32u79rM8z2ak9EjYdnB1qGhHKPtU6g3qfWq9A==
 
 "@floating-ui/core@^1.6.0":
   version "1.6.8"
