@@ -17,6 +17,7 @@ const App = ({ Component, pageProps }) => {
       }}
       >
         <Head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
         <script async src="/stats/script.js" data-website-id="bceb8dd7-4f73-4545-8bb8-74397861dce1"></script> 
         </Head>
       <Component {...pageProps} />
