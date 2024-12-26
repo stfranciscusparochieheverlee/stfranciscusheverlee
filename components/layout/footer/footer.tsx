@@ -57,7 +57,7 @@ export const Footer = ({ data, rawData}) => {
         <hr className="border-liturgischekleur my-[10px]"></hr>
         <div className="overflow-auto text-center text-liturgischekleur w-5/6 m-auto mt-[20px]">
           <p data-umami-event="erikd256 github profile page footer link" className="mo:left-[20%] mo:absolute">&copy; 2022 - {(new Date().getFullYear())} <a href="https://github.com/erikd256" target="_blank">erikd256</a></p>
-          <a href="https://github.com/stfranciscusparochieheverlee/stfranciscusheverlee/commits/main" target="_blank"><img className="mx-auto mt-2 mo:right-[20%] mo:absolute" src="https://img.shields.io/github/last-commit/sttfranciscusparochieheverlee/stfranciscusheverlee?style=for-the-badge&logo=vercel&label=Laatste%20wijziging"/></a>
+          <a href="https://github.com/stfranciscusparochieheverlee/stfranciscusheverlee/commits/main" target="_blank"><img className="mx-auto mt-2 mo:right-[20%] mo:absolute" src="https://img.shields.io/github/last-commit/stfranciscusparochieheverlee/stfranciscusheverlee?style=for-the-badge&logo=vercel&label=Laatste%20wijziging"/></a>
         </div>
     </footer>
     </>
