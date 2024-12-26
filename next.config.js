@@ -12,10 +12,6 @@ module.exports = withSvgr({
         destination: "/home",
       },
       {
-        source: "/sitemap.xml",
-        destination: "/api/sitemap.xml",
-      },
-      {
         source: '/admin',
         destination: '/admin/index.html',
       },
