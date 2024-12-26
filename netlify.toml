@@ -4,10 +4,6 @@ package = "@algolia/netlify-plugin-crawler"
   branches = ['main']
   customDomain = "stfranciscus-heverlee.org"
   renderJavaScript = true
-package = "netlify-plugin-submit-sitemap"
-
-	[plugins.inputs]
-
 	# The base url of your site (optional, default = main URL set in Netlify)
 	baseUrl = "stfranciscus-heverlee.org"
 
@@ -22,7 +18,3 @@ package = "netlify-plugin-submit-sitemap"
 		"google",
 		"yandex"
 	]
-package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-  baseUrl = "https://stfranciscus-heverlee.org"
