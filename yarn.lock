@@ -9336,10 +9336,10 @@ pirates@^4.0.1:
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.6.tgz#3018ae32ecfcff6c29ba2267cbf21166ac1f36b9"
   integrity sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==
 
-pnpm@^9.12.3:
-  version "9.12.3"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-9.12.3.tgz#4fb96925d434c491285182acf29803bb9aa2e6e5"
-  integrity sha512-zOD53pxafJW++UQWnMXf6HQav7FFB4wNUIuGgFaEiofIHmJiRstglny9f9KabAYu9z/4QNlrPIbECsks9KgT7g==
+pnpm@^9.15.5:
+  version "9.15.5"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-9.15.5.tgz#cb1f6372ef64e2ba352f2f46325adead1c99ff8f"
+  integrity sha512-hFGWAmqrHMPwmKBHS2TfurKv56G06R3YaJXY5Koyp6bQMEni0K13C75N4COnEi+2jBodbg0DPHB2CF+dXUgA1A==
 
 popmotion@11.0.3:
   version "11.0.3"
