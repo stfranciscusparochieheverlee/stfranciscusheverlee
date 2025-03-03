@@ -4,11 +4,11 @@ seo:
   description: Start pagina
 title: Start
 blocks:
-  - bannerURL: 'https://status.stfranciscus-heverlee.org'
-    bannertext: >-
-      Wij herwerken de "Parochieblad"-Pagina. Bekijk de status van de updates
-      hier!
-    vervaldatum: 2025-01-30T23:00:00.000Z
+  - bannerURL: >-
+      https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/20250113 
+      planning goede week.pdf
+    bannertext: Goede Week 2025
+    vervaldatum: 2025-04-21T22:00:00.000Z
     _template: banner
   - tagline: >-
       We staan graag voor u ter beschikking en willen met u de droom van een
