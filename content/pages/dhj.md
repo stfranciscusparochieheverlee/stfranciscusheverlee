@@ -3,7 +3,81 @@ title: Doorheen het jaar
 blocks:
   - tagline: Hieronder kan u de specialere vieringen vinden doorheen het werkjaar.
     headline: Vieringen doorheen het jaar
-    text: "Iedere zondag is er een viering om 10 u in onze kerk (tenzij anders vermeld hieronder). We ontmoeten u graag tijdens deze vieringen:\n\n**10/9/2023** Familieviering: Startviering werkjaar - Voor de viering: ontbijt ([inschrijving](https://forms.gle/cgiym1okWuytMPDUA)!)\n\n**1/10/2023 Franciscusfeest:** Feestelijke viering van onze parochie. De viering wordt opgeluisterd door het Franciscuskoor en ensemble. Aansluitend bieden we u graag een receptie aan in de parochiezaal. Tijdens deze viering gedenken we onze overleden pastoor: Marcel Doms\n\n**8/10/2023** **Dag van de chronisch zieken**: Viering in samenwerking met Samana.\n\n**1/11/2023 Allerheiligen**: Gedachtenisviering overledenen afgelopen jaar. Viering opgeluisterd door Franciscuskoor en ensemble.\n\n**19/11/2023:** **Familieviering** met speciale aandacht voor onze vormelingen: Naamopgave vormsel\n\n**3/12/2023:** 1de zondag van de Advent\n\n**10/12/2023:** 2de zondag van de Advent\n\n**17/12/2023:** 3de zondag van de Advent\n\n**24/12/2023:** 4de zondag van de Advent\n\n**24/12/2023 Kerstavond**: Kerstwake om 16 u: Familieviering voor groot en klein\n\n**25/12/2023 Kerstdag**: Feestelijke viering om 10 u opgeluisterd door het koor Blij Rondeel\n\n**26/12/2023: 2de\_Kerstdag**: Feestelijke viering met orgel en samenzang\n\n**7/1/2024**: Driekoningenviering met aansluitend een toast op het nieuwe jaar.\n\n**4/2/2024: Familieviering** met speciale aandacht voor de eerste communicanten (Naamopgave)\n\n**14/2/2024**: Aswoensdagviering gaat door in de pastorale Zone KesseLinde (plaats volgt later)\n\n**18/2/2024:** 1ste\_zondag van de vasten in het teken van Broederlijk delen\n\n**25/2/2024:** Familieviering met kruisoplegging voor onze vormelingen. Viering staat ook in het teken van Broederlijk Delen\n\n**3/3/2024:** 3de\_zondag van de vasten in het teken van Broederlijk delen\n\n**10/3/2024:** 4de\_zondag van de vasten in het teken van Broederlijk delen\n\n**17/3/2024:** 5de\_zondag van de vasten in het teken van Broederlijk delen\n\n**24/3/2024 Palmzondag**: Feestelijke viering met wijding van de palmtakken. Viering opgeluisterd door het Franciscuskoor en ensemble\n\n**28/3/2024 Witte Donderdag**:\n\n15 u Witte Donderdagviering voor de leden van Samana\n\n20 u Witte donderdagviering gaat door in de pastorale Zone KesseLinde\n\n**29/3/2024 Goede Vrijdag**\n\n15 u Kruisweg\n\n20 u Goede vrijdagviering\n\n**30/3/2024 Paaswake** om 20 u: Familieviering met eerste communicanten en vormelingen; viering opgeluisterd door het Franciscuskoor en ensemble.\n\n**31/3/2024 Paasdag:** Feestelijke viering om 10 u opgeluisterd door het koor Blij Rondeel\n\n**1/4/2024 Paasmaandagviering**: Viering om 10 u opgeluisterd met orgel en samenzang\n\n**21/4/2024 Familieviering**: Brodenviering met speciale aandacht voor onze eerste communiecanten\n\n**5/5/2024 Vormselviering** in de Sint-Antoniusparochie\n\n**9/5/2024 OHHemelvaart:** Eerste communieviering om 10 u opgeluisterd door het muziekensemble van onze parochie.\n\n**19/5/2024 Pinksteren**: Feestelijke viering opgeluisterd door het Franciscuskoor en ensemble\n\n**20/5/2024 Pinkstermaandag:** Rustige viering met orgel en samenzang om 10 u\n\n**23/6/2024:** Slotviering werkjaar met aansluitend receptie. Viering opgeluisterd door muziekensemble van de parochie.\n\n**15/8/2024 OLV Hemelvaart:** Feestelijke viering om 10 u opgeluisterd door het Franciscuskoor\n\n\_\n"
+    text: >
+      Iedere zondag is er een viering om 10 u in onze kerk (tenzij anders
+      vermeld hieronder). We ontmoeten u graag tijdens deze vieringen:
+
+
+      Aswoensdag (5 maart): Wake met asoplegging om 20 u in de kerk van
+      Vlierbeek (in samenwerking met de pastorale zone KesseLinde). Die avond is
+      er geen viering in onze kerk.
+
+
+      >
+
+
+      1ste zondag van de vasten (9 maart): Viering opgeluisterd met orgel- en
+      hobomuziek in het kader van “Muziek in de Sint-Franciscuskerk”. 
+
+
+      2de zondag van de vasten (16 maart):  Viering opgeluisterd door het
+      Franciscuskoor.
+
+
+      3de zondag van de vasten (23 maart): Viering opgeluisterd met samenzang. 
+
+
+      4de zondag van de vasten (30 maart): Tijdens deze viering zal de
+      predicatie verzorgd worden door priester Mark Cornelis. Viering
+      opgeluisterd door het Franciscuskoor. Na de viering is er achteraan een
+      boekenstand met boeken over spirituele en kerkelijke onderwerpen.
+
+
+      5de zondag van de vasten (6 april): De viering staat in het teken van de
+      actie van Broederlijk delen. Pastor Jef Wauters die mee schreef aan de
+      teksten van broederlijk delen zal de viering voorgaan. Viering
+      opgeluisterd met samenzang. 
+
+
+      Palmzondag (13 april) om 10 u: Viering met palmwijding en palmprocessie.
+      De viering wordt opgeluisterd door het Franciscuskoor en ensemble.
+
+
+      Verzoeningsviering (16 april) om 20 u: De verzoeningsviering zal dit jaar
+      doorgaan in de kerk van Boven-Lo (in samenwerking met de pastorale zone
+      KesseLinde). 
+
+
+      Witte donderdag (17 april): 15 u viering met Samana
+
+
+      20 u: Gemeenschappelijke viering van Witte Donderdag in de kerk van
+      Sint-Antonius (in samenwerking met de pastorale zone KesseLinde). 
+
+
+      Goede vrijdag (18 april): 15 u Kruisweg, in alle rust beleven we de
+      kruisweg van Jezus. 
+
+
+      20 u: Goede vrijdag viering: We beluisteren het lijdensverhaal en staan
+      stil bij het kruis. Wat betekent dit in ons leven? Deze viering wordt
+      opgeluisterd met zang en sobere muzikale begeleiding.
+
+
+      Paaswake (19 april):  20 u  Gezinsviering, Dankbaar voor de schepping
+      vieren we de symbolen: vuur, aarde, water, mens en dier. En dankzij een
+      klein vlammetje van de nieuwe Paaskaars is er hoop dat schijnt in de
+      nacht. Welkom op deze feestelijke gezinsviering opgeluisterd door het
+      Franciscuskoor en ensemble. Hopelijk hebben de Paasklokken lekkers bij. 
+
+
+      Paasdag (20 april) 10 u: Welkom rond het nieuwe Paaslicht dat het duister
+      heeft overwonnen. Welkom in deze viering van hoop voor ons allemaal.
+      Feestelijke viering opgeluisterd door het koor Blij Rondeel.
+
+
+      Paasmaandag (21 april) 10 u: Feestelijke viering opgeluisterd met
+      orgelmuziek en samenzang.
     actions:
       - label: Action Label
         type: button
