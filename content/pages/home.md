@@ -28,11 +28,12 @@ blocks:
       verwezenlijken. 
     headline: Welkom!
     text: >
-      Franciscus, de patroonheilige van onze gemeenschap: In zijn sporen willen
-      we hier in onze gemeenschap bidden en zorgen voor Gods schepping. Laten
-      wij dit samen doen, omdat wij erkennen dat zij kwetsbaar is, omdat God van
-      ons verlangt dat wij van onze gekwetste aarde opnieuw zijn vruchtbare en
-      gastvrije thuis maken.
+      ![](</uploads/Bildschirmfoto 2025-03-09 um 12.19.05.png>)Franciscus, de
+      patroonheilige van onze gemeenschap: In zijn sporen willen we hier in onze
+      gemeenschap bidden en zorgen voor Gods schepping. Laten wij dit samen
+      doen, omdat wij erkennen dat zij kwetsbaar is, omdat God van ons verlangt
+      dat wij van onze gekwetste aarde opnieuw zijn vruchtbare en gastvrije
+      thuis maken.
 
 
       Die droom drukte pastoor Mauritz Andries zaliger in een inspirerend
