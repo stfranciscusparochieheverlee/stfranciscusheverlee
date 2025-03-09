@@ -16,12 +16,6 @@ blocks:
     bannertext: Vasten 2025
     vervaldatum: 2025-04-21T22:00:00.000Z
     _template: banner
-  - bannerURL: >-
-      https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/20250113 
-      planning goede week.pdf
-    bannertext: Goede Week 2025
-    vervaldatum: 2025-04-21T22:00:00.000Z
-    _template: banner
   - tagline: >-
       We staan graag voor u ter beschikking en willen met u de droom van een
       rijk van vrede, liefde en rechtvaardigheid in de geest van Jezus helpen
