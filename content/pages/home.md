@@ -33,6 +33,12 @@ blocks:
       Die droom drukte pastoor Mauritz Andries zaliger in een inspirerend
       gedicht  uit.
     actions:
+      - label: Muziek in de kerk
+        type: button
+        icon: true
+        link: >-
+          https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/Folder
+          muziek in de kerk 2025.pdf
       - label: Vasten 2025
         type: button
         icon: true
