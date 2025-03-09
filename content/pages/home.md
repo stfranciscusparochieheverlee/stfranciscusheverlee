@@ -33,7 +33,7 @@ blocks:
       Die droom drukte pastoor Mauritz Andries zaliger in een inspirerend
       gedicht  uit.
     actions:
-      - label: Vasten
+      - label: Vasten 2025
         type: button
         icon: true
         link: >-
