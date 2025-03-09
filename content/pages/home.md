@@ -36,7 +36,9 @@ blocks:
       - label: Vasten
         type: button
         icon: true
-        link: /
+        link: >-
+          https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/VASTEN en
+          GOEDE WEEK 2025.pdf
     image:
       src: /uploads/MauritzAndries-removebg-preview.png
       alt: Mauritz andries gedicht
