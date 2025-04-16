@@ -1,4 +1,4 @@
-![LICENSE BADGE](https://img.shields.io/github/license/erikd256/stfranciscusheverlee?style=for-the-badge)
+![LICENSE BADGE](https://img.shields.io/github/license/stfranciscusparochieheverlee/stfranciscusheverlee?style=for-the-badge)
 
 # St. Franciscusparochie Heverlee
 
