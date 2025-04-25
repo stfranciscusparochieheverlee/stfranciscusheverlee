@@ -16,12 +16,11 @@ blocks:
       verwezenlijken. 
     headline: Welkom!
     text: >
-      ![](</uploads/Bildschirmfoto 2025-03-09 um 12.19.05.png>)Franciscus, de
-      patroonheilige van onze gemeenschap: In zijn sporen willen we hier in onze
-      gemeenschap bidden en zorgen voor Gods schepping. Laten wij dit samen
-      doen, omdat wij erkennen dat zij kwetsbaar is, omdat God van ons verlangt
-      dat wij van onze gekwetste aarde opnieuw zijn vruchtbare en gastvrije
-      thuis maken.
+      Franciscus, de patroonheilige van onze gemeenschap: In zijn sporen willen
+      we hier in onze gemeenschap bidden en zorgen voor Gods schepping. Laten
+      wij dit samen doen, omdat wij erkennen dat zij kwetsbaar is, omdat God van
+      ons verlangt dat wij van onze gekwetste aarde opnieuw zijn vruchtbare en
+      gastvrije thuis maken.
 
 
       Die droom drukte pastoor Mauritz Andries zaliger in een inspirerend
@@ -33,12 +32,6 @@ blocks:
         link: >-
           https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/Folder
           muziek in de kerk 2025.pdf
-      - label: Vasten 2025
-        type: button
-        icon: true
-        link: >-
-          https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/VASTEN en
-          GOEDE WEEK 2025.pdf
     image:
       src: /uploads/MauritzAndries-removebg-preview.png
       alt: Mauritz andries gedicht
