@@ -39,7 +39,7 @@ blocks:
       De data van deze infoavond wordt u na het insturen van de aanvraag tot het
       Vormsel meegedeeld.
     actions:
-      - label: Aanvraagformulier Vormsel
+      - label: Aanvraag Vormsel
         type: button
         icon: true
         link: >-
