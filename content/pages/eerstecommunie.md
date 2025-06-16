@@ -8,7 +8,9 @@ blocks:
       - label: Inschrijvingsformulier Eerste Communie
         type: button
         icon: true
-        link: ''
+        link: >-
+          https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/2025/Aanvraagformulier
+          E.C. 2026.FRANDO.docx
     image:
       src: /uploads/supper-gc56ceda01_1920.jpg
     _template: hero
