@@ -39,12 +39,12 @@ blocks:
       De data van deze infoavond wordt u na het insturen van de aanvraag tot het
       Vormsel meegedeeld.
     actions:
-      - label: Inschrijvingsformulier Vormsel
+      - label: Aanvraagformulier Vormsel
         type: button
         icon: true
         link: >-
-          https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/Aanvraag
-          Vormsel 2025-formulier.pdf
+          https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/2025/Aanvraag
+          Vormsel 2026 -formulier.docx
     image:
       src: /uploads/dove-g55cfac917_1920.jpg
     _template: hero
