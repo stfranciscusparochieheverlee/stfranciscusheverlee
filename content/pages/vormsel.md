@@ -21,11 +21,11 @@ blocks:
 
       Het vraagt heel wat inspanning om de catechesemomenten aantrekkelijk en
       leeftijd betrokken te maken. Veel vormelingen hebben deugd aan deze
-      voorbereiding. 
+      voorbereiding.
 
 
       In onze geloofsgemeenschap verzorgen de ouders samen met een catechist
-      deze voorbereiding. 
+      deze voorbereiding.
 
 
       Heeft je zoon of dochter er zin in? Dan kan je een aanvraagformulier
@@ -39,12 +39,6 @@ blocks:
       De data van deze infoavond wordt u na het insturen van de aanvraag tot het
       Vormsel meegedeeld.
     actions:
-      - label: ' Brief met uitleg bij inschrijving'
-        type: button
-        icon: true
-        link: >-
-          https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/Infobrief
-          vormsel 2025.pdf
       - label: Inschrijvingsformulier Vormsel
         type: button
         icon: true
