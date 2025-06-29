@@ -11,8 +11,7 @@ import Image from "next/image";
 import { GlobalStyles } from "@mui/material";
 import globals from "../../content/global/index.json"
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { HiDocumentSearch } from "react-icons/hi";
-
+import { Search } from "./search";
 export const Header = ({ data, props }) => {
   // If we're on an admin path, other links should also link to their admin paths
   const [prefix, setPrefix] = React.useState("");
@@ -22,7 +21,6 @@ export const Header = ({ data, props }) => {
   const [resultsPopUp, setResultsPopup] = React.useState(false);
   const [menuExpanded, setMenuExpanded] = React.useState(false);
   const query = React.useRef(null);
-  const [searchResults, setSearchResults] = React.useState([]);
   
   React.useEffect(() => {
     document.getElementById("title").innerText = document.title;
@@ -44,9 +42,7 @@ export const Header = ({ data, props }) => {
   function menuExpand(){
     setMenuExpanded(!menuExpanded);
   }
-  async function search() {
-    
-  }
+
   React.useEffect(() => {
     setUrl(hasUrl);
   }, [hasUrl]);
@@ -64,9 +60,7 @@ export const Header = ({ data, props }) => {
       </Head>
       <div className="overflow-x-hidden flex flex-col smo:flex-row items-center text-xl font-weight-700 bg-liturgischekleur p-[15px] z-[5000]">
         <a href="/" className="no-underline"><img src="/icon-dark.svg" alt="header-icon" width="50px" className="mr-[10px] inline"/><span id="title">{props.title} @ St.-Franciscusparochie</span></a>
-        <span className="smo:absolute smo:right-[50px] text-sm clear-both">
-          <div id="search" className="p-[5px] h-[30px] bg-vijfdekleur border-2 border-basiskleur rounded-l-full clear-left"></div>
-        </span>
+        <Search></Search>
       </div>
       <hr className="border-basiskleur bg-basiskleur mx-0"></hr>
       <div className={`overflow-x-hidden flex text-center items-center content-center place-content-center text-basiskleur w-full sticky top-0 z-[5000] text-lg`}>
@@ -118,17 +112,6 @@ export const Header = ({ data, props }) => {
               </>
             )
           }})}
-    </div>
-    <div style={{display: resultsPopUp?"block":"none"}} className="fixed text-liturgischekleur text-center p-2 w-3/4 h-3/4 z-[6000] bg-basiskleur border-liturgischekleur overflow-auto border-2 rounded-md top-[12.5%] left-[12.5%]">
-      <button className="absolute right-[20px]" onClick={toggle5}>&#10006;</button>
-      <h3>Zoekresultaten:</h3><hr className="bg-liturgischekleur border-liturgischekleur"></hr><br></br>
-      <div className="overflow-auto">
-      {searchResults.map((data)=>{
-        return(
-          <div className="relative rounded-md w-3/4 left-[12.5%] bg-liturgischekleur text-basiskleur text-xl my-[10px] p-[5px]">{data.item.title}<hr className="bg-basiskleur border-basiskleur"></hr><div className="w-full p-[5px] relative h-auto text-lg text-left">{data.item.excerpt}<br></br><a className="text-sm mt-[20px]" href={data.item.filename}>Lees meer...</a></div></div>
-        )
-      })}
-      </div>
     </div>
     <a href="/donaties" aria-label="Doneren" className="fixed p-[15px] w-[55px] rounded-[2px] no-underline text-center bg-red-700 text-white bold bottom-[10px] z-[4001] left-[2.4%] inline-flex h-[50px]"><VolunteerActivismIcon/></a>
     <a href="/dhj" aria-label="Vieringen" className="fixed p-[15px] w-[55px] rounded-[2px] no-underline text-center bg-green-700 text-white bold bottom-[10px] z-[4001] right-[2.4%] inline-flex h-[50px]"><AccessTimeIcon/></a></>
