@@ -2,17 +2,11 @@ import Head from "next/head";
 import React from "react";
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import SearchIcon from '@mui/icons-material/Search';
-import axios from "axios"
-import Fuse from 'fuse.js'
-import Link from "next/link";
-import { CloseIcon } from "tinacms";
-import Image from "next/image";
-import { GlobalStyles } from "@mui/material";
 import globals from "../../content/global/index.json"
-import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Search } from "./search";
 export const Header = ({ data, props }) => {
+    
+
   // If we're on an admin path, other links should also link to their admin paths
   const [prefix, setPrefix] = React.useState("");
   const [windowUrl, setUrl] = React.useState("");
@@ -21,7 +15,7 @@ export const Header = ({ data, props }) => {
   const [resultsPopUp, setResultsPopup] = React.useState(false);
   const [menuExpanded, setMenuExpanded] = React.useState(false);
   const query = React.useRef(null);
-  
+
   React.useEffect(() => {
     document.getElementById("title").innerText = document.title;
   });

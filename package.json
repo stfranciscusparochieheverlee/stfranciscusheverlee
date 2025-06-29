@@ -42,6 +42,7 @@
     "@tinacms/auth": "^1.0.8",
     "@types/react-helmet": "^6.1.11",
     "@vercel/speed-insights": "^1.1.0",
+    "algoliasearch": "^5.29.0",
     "axios": "^1.7.7",
     "cross-fetch": "^4.0.0",
     "date-fns": "^4.1.0",
