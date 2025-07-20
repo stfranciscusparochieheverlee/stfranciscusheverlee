@@ -45,7 +45,7 @@ blocks:
       - label: Blij Rondeel koor
         type: button
         icon: true
-        link: www.blijrondeel.be
+        link: 'https://www.blijrondeel.be'
     _template: hero
 ---
 
