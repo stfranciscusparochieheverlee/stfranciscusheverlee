@@ -2,9 +2,7 @@ import { Section } from "../util/section";
 import { Container } from "../util/container";
 import type { TinaTemplate } from "tinacms";
 import React from 'react';
-
-import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
-import axios from "axios"
+import Head from "next/head";
 
 export const Question = ({ data, tinaField }) => {
   return (
@@ -17,46 +15,20 @@ export const Question = ({ data, tinaField }) => {
 };
 
 export const Form = ({ data, parentField }) => {
-  const { executeRecaptcha } = useGoogleReCaptcha()
-  const [buttonDisabled, setButtonDisabled] = React.useState(true)
-  
-  async function verifyCaptchaAction(token: string) {
-    const res = await axios({
-      method: 'post',
-      url:`/api/recaptchaverification`, 
-      data: {
-        gRecaptchaToken: token
-      } 
-  })
-    if (res.data > 0.5) {
-      return true
-    } else {
-      return false
-    }}
-    
-  async function onSubmit() {
-    // if the component is not mounted yet
-    if (!executeRecaptcha) {
-      console.error("component not yet mounted")
-      return
-    }
-    // receive a token
-    const token = await executeRecaptcha("onSubmit")
-    // validate the token via the server action we've created previously
-    const verified = await verifyCaptchaAction(token)
-
-    if (verified) {
-      setButtonDisabled(!buttonDisabled)
-    }else{window.alert("Je bent toch een robot! Ik wist het!")}
-  }
   return (
+    <><Head>
+      <script
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=_turnstileCb"
+          defer
+        ></script>
+    </Head>
     <Section>
       <Container
         className={`bg-vijfdekleur text-basiskleur text-lg`}
         size="large"
       >
         <p className="text-2xl my-[10px]">{data.airformTitle}</p>
-        <form onSubmit={onSubmit} >
+        <form>
         {data.items &&
           data.items.map(function (block, i) {
             return (
@@ -68,17 +40,14 @@ export const Form = ({ data, parentField }) => {
             );
           })}
           <p className="inline-flex"><label>Ik ga akkoord met de <a href="/privacy">privacyovereenkomst.</a></label><input required type="checkbox" className="mx-[10px]"/><span className="text-red-500">*</span></p><br></br>
-          <p className="inline-flex"><label>Ik ben geen robot.</label><input onChange={onSubmit} required type="checkbox" className="mx-[10px]"/><span className="text-red-500">*</span></p>          
-          
-          <button  className={`my-[10px] rounded-[5px] border-basiskleur bg-liturgischekleur border-[2px] w-full disabled:cursor-not-allowed`} disabled={buttonDisabled} type="submit">Versturen</button>
-          <span className="text-red-500 text-sm">* Verplicht veld</span>
+          <p className="inline-flex"><label>Ik ben geen robot.</label><input required type="checkbox" className="mx-[10px]"/><span className="text-red-500">*</span></p>          
           <input hidden type={"text"} name="sendToEmail" value={data.NetlifyId} /><br></br><br></br>
-          <span className="text-sm">Dit formulier is beveiligd door reCAPTCHA en Google. Hun
-          <a href="https://policies.google.com/privacy"> Privacy Policy</a> en
-          <a href="https://policies.google.com/terms"> Terms of Service</a> zijn van toepassing.</span>
-          </form>
+
+          <div className="cf-turnstile"></div>
+          <button type="submit" disabled>Versturen</button>
+        </form>
       </Container>
-    </Section>
+    </Section></>
   );
 };
 

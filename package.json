@@ -49,6 +49,7 @@
     "fs": "^0.0.1-security",
     "fuse.js": "^7.0.0",
     "globby": "^14.0.2",
+    "js-search": "^2.0.1",
     "moment": "^2.30.1",
     "next": "^15.0.3",
     "next-seo": "^6.6.0",
