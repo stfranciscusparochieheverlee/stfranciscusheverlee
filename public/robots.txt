@@ -5,3 +5,4 @@ Disallow: /form-submitted
 Disallow: /api
 Disallow: /api/
 Disallow: /pictures
+Disallow: /q
