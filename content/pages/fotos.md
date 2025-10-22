@@ -68,44 +68,6 @@ blocks:
         title: 10-9-2023 Startviering nieuw werkjaar
     _template: gallery
   - title: Werkjaar 2022 - 33
-    items:
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipPrYmgdyw4PpFgD9sT37N7JbAZE2GWn-zLYvrbQZo9oQ5esA64usdatEyiFIjwEPg?key=RGFCRi10ZGQwek5LRHJ2X2xSZWlZZlE5WWNkaGNR
-        title: pater Ghislain Kasereka
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipMuW4Ri-_reegKUth_T4MLI6T8enjkxW96dhh0qGkrkfI1-DtaQuZlLOhrCRHTpBg?key=cjdzbVhJSE4yc1FfdjFUZW5LdncxZ2ZnWXhacVB3
-        title: slotviering in de Ark
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipNJkSHQZjenGAuEbvDVENq5etzjZdITtcg8y_4ZLSQnuPUUeI0GVSKpW8857RSFpQ?key=NmV0YVpFUmxfQ2Jjb0R3VDFMaklDVU41aGV1LWtB
-        title: Pinksteren
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipMRdtdyQgeNlAczJnfEf-xy2gw4ym-F1TwjnVceX6AYA294YSB6gUbjqr86sA8N8Q?key=RVJralYwOXJpRXpDemUxeUk5N21QQnlWZnNQUnhB
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipM6BHmvVMkHpcv-AtlX08vT9a3_epu9qPXgERagYE3XKn3S_rgj30R5Noq9lGWatA?key=T0xkd2dxVXdYcTVLbVVrU1I1SnptVUMtYk5IZVdn
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipOccDjgyjGB1HNDKUmSKTpMnZy8ZrpCnJiOlrz810PRs9meh3kNGNZttuAT88N2Gg?key=MkNqeTZOaGlvdTY2YjZwamF2MmVENnhUSFVGUFBn
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipMw6wDy12w_ScoTmZ_TgGSqnDjad_GOJdBr_ZFJxlTKfoX0KHKhL_e5sEIiPT1OVQ?key=ODE4Zlh1T1lDYm1xOWVsclJ6Rm1IY3dGVjdWcU5B
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipPZLQyZFljcqAzKkAa57GtNfpBdUEeZQqLpJ0_W5RplLiJE_wr5gpMNRQZ3DPFbiA?key=OU5TS2xsZFZ0WkRGRllfM1VIUTdQWndid1AxY21B
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipMwz4YxG44OHL7nFQEQEhhCszhwT-2vT2X6hnkmHdNPuQHcfVeJnq93ffBLxRB32w?key=S3lrVjgyd0tWOXdSVFV6Wi00eDNoLV9xSE1ZclZR
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipNBLsVAorbPSNhLzPuWaC_8UoagXXyee5YDNPt-r6pye1ROlBAohUBh3icr5cEdAg?key=T0tkUnlobHZQTWpRbWdzWVJqSDBXYzg2Z2xuY09B
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipNkl77m5D8b_VFWBbX-u_FuIRuwLNi2Ke0MilmswyNqeugqqZ3-nsOv-AecqFeACg?key=aGhWQTRva3lsNU9uNEx3anl5Q2otVzVFRy1HdmJR
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipOsW0D-GA_IMf1UQjbT4EprkUkLNFjZfSkE4HF6xf2efEBFlNMkJ52MgzK-7EBWog?key=Z1FadmxWQTIycXk3RHZVd2JJMEZoODVYSU9GVXVn
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipN9XzROriCYw-hbl418G0P3uAPuMm0byXfIGpWwXiPASif8K5ce4j2bScVPorklOA?key=X0U4V1FxS0R6d1hxbzVmMVBHRXB2TVdFZlp3Yll3
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipNDP36Fi7jY_ZFgW9tf9t3weKRhuSN1bIn22kfpj9HsQwQEKS7mAycWRDKdtiHBHw?key=OF9hQWhERGFyMTZXRnlib0pXNTFXeWxPMUNJbHFB
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipOugo5IY6JYGZlIZKO4GIdUhbWQ2xU3dlBUBszy_VyNBygd0_coMbnQQE3hX3pkvg?key=ZFB4cEVMWWxlUl96bFRXR2tyQVBFTl9PMVMwYXR3
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipOGnOG5LncKd84YBHOpwjDOtGqNdqPpQEQylD5IVgrUaL-xntZGF-CVJZWmCAr07Q?key=WTgxZjZSVjd6bW9qdGdDWHBYRVBXMjBwQWQyc1Rn
-      - sharingURL: >-
-          https://photos.google.com/share/AF1QipO9KpGa7oVFQwoQW3JqtsuPl72TSLqQW8lOzV0UaX2H6IlI9ddpYxpRxLA8orIRWw?key=VzRycExrQlZycXBaNUxFc3p5WEtwVk93Z1BVckN3
     _template: gallery
 ---
 
