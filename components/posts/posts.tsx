@@ -27,7 +27,7 @@ export const Posts = ({ data }) => {
         const post = postData.node;
         const [likes, setLikes] = React.useState(0);
         async function getLikes(){
-          await axios({url: `/likes/?r=${post._sys.filename}`, method: "get"}).then((result) => {
+          await axios({url: `https://likes.stfranciscus-heverlee.org/?r${post._sys.filename}`, method: "get"}).then((result) => {
             setLikes(result.data)
         }).catch((error) => {
           console.error(error)
