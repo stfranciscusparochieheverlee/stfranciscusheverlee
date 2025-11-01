@@ -98,7 +98,7 @@ export const Post = (props) => {
     console.error(error)
   })}
   async function like() {
-    await axios({url: `https://likes.stfranciscus-heverlee.org/?r${pageName}&a=addlike`, method: "get"}).then((result) => {
+    await axios({url: `https://likes.stfranciscus-heverlee.org/?r=${pageName}&a=addlike`, method: "get"}).then((result) => {
       setLikes(result.data)
       setLiked(true)
       
