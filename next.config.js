@@ -16,18 +16,6 @@ module.exports = withSvgr({
         destination: '/admin/index.html',
       },
       {
-        source: "/stats/:match*",
-        destination: "https://analytics.stfranciscus-heverlee.org/:match*"
-      },
-      {
-        source: "/pictures",
-        destination: "https://photos.stfranciscus-heverlee.org/"
-      },
-      {
-        source: "/likes",
-        destination: "https://likes.stfranciscus-heverlee.org/"
-      },
-      {
         source: "/viewer/:match*",
         destination: "https://viewer.stfranciscus-heverlee.org/:match*"
       },
