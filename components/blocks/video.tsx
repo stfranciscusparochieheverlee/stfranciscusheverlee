@@ -3,9 +3,8 @@ import { Container } from "../util/container";
 import { Section } from "../util/section";
 import type { TinaTemplate } from "tinacms";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { default as _ReactPlayer } from 'react-player/lazy';
-import { ReactPlayerProps } from "react-player/types/lib";
-const ReactPlayer = _ReactPlayer as unknown as React.FC<ReactPlayerProps>;
+import { default as _ReactPlayer } from 'react-player';
+import ReactPlayer from 'react-player'
 
 export const Video = ({ data, parentField = "" }) => {
   return (
@@ -16,7 +15,7 @@ export const Video = ({ data, parentField = "" }) => {
         size="large"
       >
         <div className="relative w-4/6 left-[12.5%] pt-[10px] mb-[10px] text-justify border-b-2 border-liturgischekleur text-xl">{data.title}</div>
-        <ReactPlayer cover={data.coverImage} controls width="66.66666666%" height="400px" className="relative left-[12.5%]" url={data.videoURL} />
+        <ReactPlayer src={data.videoURL} />
         <div className="relative left-[12.5%] w-4/6 pb-[10px] prose-lg text-justify border-b-2 border-liturgischekleur"><TinaMarkdown content={data.videodescription} /></div>
       </Container>
     </Section>

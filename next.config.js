@@ -2,9 +2,7 @@ const withSvgr = require("next-svgr");
 
 
 module.exports = withSvgr({
-  webpack: (config, { isServer }) => {
-    return config
-  },
+  turbopack: {},
   async rewrites() {
     return [
       {
