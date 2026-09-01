@@ -7,9 +7,9 @@ import axios from "axios";
 export const Footer = ({ data, rawData}) => {
   const [bibleVerse, setBibleVerse] = React.useState("")
   const [bibleVerseSlug, setBibleVerseSlug] = React.useState("")
-  axios.get("/api/bibleverseoftheday").then((response) => {
+  React.useEffect(() => {axios.get("/api/bibleverseoftheday").then((response) => {
     setBibleVerse(response.data.verse)
-    setBibleVerseSlug(response.data.slug)
+    setBibleVerseSlug(response.data.slug)})
   })
   const socialIconClasses = "h-7 w-auto";
   return (
