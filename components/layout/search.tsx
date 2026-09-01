@@ -22,7 +22,7 @@ export const Search = () => {
     <InstantSearch indexName="netlify_f065dc5a-6c9b-4e3c-82b8-a3f548245d4a_main_all" searchClient={searchClient}>
       <SearchBox className="rounded-full m-0 h-10 border-derdekleur font-bold bg-basiskleur border-0 placeholder-current p-2 text-sm flex-initial inline-block"/>
       {/* other widgets */}
-       <div  className="fixed top-[25%] bg-basiskleur w-[75%] h-[50%] left-[12.5%] overflow-auto"><Hits hitComponent={Hit} /></div>
+       <div  className="fixed invisible top-[25%] bg-basiskleur w-[75%] h-[50%] left-[12.5%] overflow-auto"><Hits hitComponent={Hit} /></div>
     </InstantSearch>
    </div>
     </>
