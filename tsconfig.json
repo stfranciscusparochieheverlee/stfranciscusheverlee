@@ -26,7 +26,5 @@
     "**/*.ts",
     "**/*.tsx",
     ".forestry/types.ts",
-    ".forestry/config.ts",
-    "pages/sitemap.xml.js"
-  ]
+    ".forestry/config.ts"  ]
 }
