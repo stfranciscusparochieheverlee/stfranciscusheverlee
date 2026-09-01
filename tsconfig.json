@@ -20,7 +20,8 @@
     "incremental": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "components/blocks/gallery.tsx"
   ],
   "include": [
     "next-env.d.ts",
