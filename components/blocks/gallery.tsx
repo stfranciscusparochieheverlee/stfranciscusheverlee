@@ -37,7 +37,7 @@ export const GalleryItem = ({ data, tinaField }) => {
     <div className="flex flex-col">
       <div className="p-[50px] container w-full h-[260px] relative m-[50px]"  onMouseEnter={toggleTitle} onMouseLeave={toggleTitle}>
         <div className={`w-full h-full bg-basiskleur ${loadingState}  absolute top-0 left-0 z-[2001] rounded-md text-liturgischekleur text-xl baseline-[180px]`}>
-          <span className="w-full text-center absolute top-[45%] left-[35%] inline-flex leading-[60px]"><ThreeDots visible={true} height="60" width="60" color="#CB904D" radius="9" ariaLabel="three-dots-loading" wrapperStyle={{}} wrapperClass=""/></span>
+          <span className="w-full text-center absolute top-[45%] left-[35%] inline-flex leading-[60px]"><ThreeDots visible={true} height="60" width="60" color="#CB904D" ariaLabel="three-dots-loading" wrapperStyle={{}} wrapperClass=""/></span>
         </div>
         <img className="absolute object-cover w-full border-4 border-basiskleur top-0 left-0 rounded-md h-full" src={coverImage} onClick={hideGallery}></img>
         <span onClick={hideGallery} className={`text-xl w-full h-full absolute top-0 left-0 z-[2000] ${titleHidden ? "hidden":"inline-block"} pt-[25%] bg-liturgischekleur text-center rounded-md border-2 border-basiskleur`}>{data.title || galleryTitle}</span>  
