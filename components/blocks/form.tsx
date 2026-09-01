@@ -28,7 +28,7 @@ export const Form = ({ data, parentField }) => {
         size="large"
       >
         <p className="text-2xl my-[10px]">{data.airformTitle}</p>
-        <form>
+        <form netlify>
         {data.items &&
           data.items.map(function (block, i) {
             return (

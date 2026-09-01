@@ -1,14 +1,24 @@
 import set from "date-fns";
+import Head from "next/head";
 import React from "react";
 import { HiSearch } from "react-icons/hi";
+            
+            
 
 export const Search = () => {
     return (
-    <form method="GET" action="/q">
-        <div className="p-0 h-11 absolute right-4 text-derdekleur rounded-full border-2 border-vierdekleur flex">
-            <input className="rounded-l-full m-0 h-10 border-derdekleur font-bold bg-basiskleur border-0 placeholder-current p-2 text-sm flex-initial inline-block" placeholder="Zoeken ..." autoComplete="off" id="search" name="k"/>
-            <button type="submit" className="rounded-r-full text-center m-0 h-10 w-10 border-derdekleur font-bold bg-derdekleur text-basiskleur border-1 p-2 text-sm inline-block"><HiSearch/></button>
-        </div>
-    </form>
+    <>
+        <Head>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+               
+        </Head>
+       <form method="GET" action="/q">
+            <div className="p-0 h-11 absolute right-4 text-derdekleur rounded-full border-2 border-vierdekleur flex">
+                <input className="rounded-l-full m-0 h-10 border-derdekleur font-bold bg-basiskleur border-0 placeholder-current p-2 text-sm flex-initial inline-block" placeholder="Zoeken ..." autoComplete="off" id="search" name="k"/>
+                <button type="submit" className="rounded-r-full text-center m-0 h-10 w-10 border-derdekleur font-bold bg-derdekleur text-basiskleur border-1 p-2 text-sm inline-block"><HiSearch/></button>
+            </div>
+        </form>
+    </>
     )
 }
