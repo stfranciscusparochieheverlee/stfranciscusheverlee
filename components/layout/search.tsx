@@ -8,12 +8,10 @@ const searchClient = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOL
 function Hit({ hit }) {
   return (
     <article>
-      <img src={hit.image} alt={hit.name} />
-      <p>{hit.categories[0]}</p>
       <h1>
         <Highlight attribute="name" hit={hit} />
       </h1>
-      <p>${hit.price}</p>
+      <p>${hit.content}</p>
     </article>
   );
 }
