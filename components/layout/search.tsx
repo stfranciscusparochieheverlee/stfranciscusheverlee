@@ -1,4 +1,3 @@
-import set from "date-fns";
 import Head from "next/head";
 import React from "react";
 import { HiSearch } from "react-icons/hi";

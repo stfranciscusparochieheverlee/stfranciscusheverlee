@@ -4,7 +4,7 @@ import { Section } from "../util/section";
 import type { TinaTemplate } from "tinacms";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import axios from "axios"
-import { ThreeDots } from 'react-loader-spinner'
+import  ThreeDots from 'react-loader-spinner'
 
 export const GalleryItem = ({ data, tinaField }) => {
   const [srcArray, setSrcArray] = React.useState([])
