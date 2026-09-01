@@ -19,7 +19,7 @@
 .env
 .env.local
 .idea
-
+.env.development
 # debug
 npm-debug.log*
 yarn-debug.log*
@@ -29,3 +29,4 @@ public/sitemap.xml
 public/sitemap.txt
 .yarn
 .vscode
+.env.development
