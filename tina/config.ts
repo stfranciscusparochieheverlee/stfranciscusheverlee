@@ -119,24 +119,6 @@ schema: {
       ],
     },
     {
-      label: "Parochieblad",
-      name: "weeknieuws",
-      path: "content/weeknieuws",
-      format: "mdx",
-      fields: [
-        {
-          type: "image",
-          label: "Bestand",
-          name: "bestand",
-        },
-        {
-          type: "datetime",
-          label: "Datum",
-          name: "date",
-        },
-      ]
-    },
-    {
       label: "Global",
       name: "global",
       path: "content/global",
