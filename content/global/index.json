@@ -95,11 +95,6 @@
         ]
       },
       {
-        "href": "/kerkenleven",
-        "label": "Parochieblad",
-        "type": "href"
-      },
-      {
         "href": "/posts",
         "label": "Nieuws",
         "type": "href"
