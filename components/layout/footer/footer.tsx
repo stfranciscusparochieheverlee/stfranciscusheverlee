@@ -21,7 +21,7 @@ export const Footer = ({ data, rawData}) => {
           <div className="w-full mo:w-1/3 mo: text-center place-content-center mo:absolute mo:top-[100px] mo:right-[0px]">
           
             <a data-umami-event="facebook footer link" className="mx-[0px] mt-[30px] inline-block opacity-80 hover:opacity-100 transition ease-out duration-150" aria-label="Facebook" target="_blank" href="https://www.facebook.com/Franciscusgemeenschapheverlee"><FaFacebookF className={`${socialIconClasses}` }/></a>  
-            <a data-umami-event="youtube footer link" className="mx-[4px] inline-block opacity-80 hover:opacity-100 transition ease-out duration-150" aria-label="YouTube" target="_blank" href="https://www.youtube.com/channel/UC-7wzVLv2W3oUQtQcPpvCig"><FaYoutube className={`${socialIconClasses}` }/></a>
+            <a data-umami-event="youtube footer link" className="mx-[4px] inline-block opacity-80 hover:opacity-100 transition ease-out duration-150" aria-label="YouTube" target="_blank" href="https://www.youtube.com/@franciscusheverleelive"><FaYoutube className={`${socialIconClasses}` }/></a>
             <a data-umami-event="github footer link" className="mx-[4px] inline-block opacity-80 hover:opacity-100 transition ease-out duration-150" aria-label="github" target="_blank" href="https://github.com/stfranciscusparochieheverlee/stfranciscusheverlee"><FaGithub className={`${socialIconClasses}` }/></a><br></br>
           
           <hr className="hidden mo:block border-liturgischekleur my-[10px] mt-[12px]"></hr>
@@ -57,7 +57,6 @@ export const Footer = ({ data, rawData}) => {
         <hr className="border-liturgischekleur my-[10px]"></hr>
         <div className="overflow-auto text-center text-liturgischekleur w-5/6 m-auto mt-[20px]">
           <p data-umami-event="erikd256 github profile page footer link" className="mo:left-[20%] mo:absolute">&copy; 2022 - {(new Date().getFullYear())} <a href="https://github.com/erikd256" target="_blank">erikd256</a></p>
-          <a href="https://github.com/stfranciscusparochieheverlee/stfranciscusheverlee/commits/main" target="_blank"><img className="mx-auto mt-2 mo:right-[20%] mo:absolute" src="https://api.netlify.com/api/v1/badges/f065dc5a-6c9b-4e3c-82b8-a3f548245d4a/deploy-status"/></a>
         </div>
     </footer>
     </>
