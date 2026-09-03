@@ -44,7 +44,7 @@ export const Form = ({ data, parentField }) => {
           <input hidden type={"text"} name="sendToEmail" value={data.NetlifyId} /><br></br><br></br>
 
           <div className="cf-turnstile"></div>
-          <button type="submit" disabled>Versturen</button>
+          <button type="submit">Versturen</button>
         </form>
       </Container>
     </Section></>
