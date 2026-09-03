@@ -8,7 +8,7 @@ blocks:
     image:
       src: /uploads/supper-gc56ceda01_1920.jpg
     _template: hero
-  - FormulierEndpoint: 'https://forms.stfranciscus-heverlee.org/contact'
+  - FormEndpoint: 'https://forms.stfranciscus-heverlee.org/contact'
     airformTitle: Inschrijving
     NetlifyId: admin@stfranciscus-heverlee.org
     items:
