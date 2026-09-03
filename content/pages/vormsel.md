@@ -16,14 +16,25 @@ blocks:
 
       Voor geïnteresseerden houden we een infoavond waarbij de werking wordt uitgelegd.
 
-      De data van deze infoavond wordt u na het insturen van de aanvraag tot het Vormsel meegedeeld.
-    actions:
-      - label: Aanvraag Vormsel
-        type: button
-        icon: true
-        link: 'https://assets.tina.io/3b903733-b9d0-4a6c-be20-9dc3e2081414/2026/Aanvraag%20Vormsel%202027%20-formulier.docx'
+      De data van deze infoavond wordt u na het insturen van de aanvraag tot het Vormsel via het formulier hieronder meegedeeld.
+    actions: []
     image:
       src: /uploads/dove-g55cfac917_1920.jpg
     _template: hero
+  - FormEndpoint: 'https://forms.stfranciscus-heverlee.org/contact'
+    airformTitle: Inschrijving
+    NetlifyId: catechese@stfranciscus-heverlee.org
+    items:
+      - type: textarea
+        questiontitle: Mijn aanvraag
+        questionrequired: true
+        questionid: message
+        placeholder: ''
+      - type: email
+        questiontitle: Mijn mailadres
+        questionrequired: true
+        questionid: mail
+        placeholder: info@stfranciscus-heverlee.org
+    _template: form
 ---
 

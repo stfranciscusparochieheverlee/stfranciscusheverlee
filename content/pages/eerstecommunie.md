@@ -10,7 +10,7 @@ blocks:
     _template: hero
   - FormEndpoint: 'https://forms.stfranciscus-heverlee.org/contact'
     airformTitle: Inschrijving
-    NetlifyId: admin@stfranciscus-heverlee.org
+    NetlifyId: catechese@stfranciscus-heverlee.org
     items:
       - type: textarea
         questiontitle: Mijn aanvraag
