@@ -28,7 +28,7 @@ export const Form = ({ data, parentField }) => {
         size="large"
       >
         <p className="text-2xl my-[10px]">{data.airformTitle}</p>
-        <form action={data.FormEndpoint}>
+        <form action="https://forms.stfranciscus-heverlee.org/contact">
         {data.items &&
           data.items.map(function (block, i) {
             return (
@@ -67,17 +67,6 @@ export const formBlockSchema: TinaTemplate = {
     },
   },
   fields: [
-    {
-      type: "string",
-      name: "FormEndpoint",
-     label: "Antwoorden versturen via:",
-     options: [
-        {
-          value: "https://forms.stfranciscus-heverlee.org/contact",
-          label: 'Standaard (e-mail)',
-        }
-      ],
-    },
     {
       type: "string",
       label: "Formulier titel",

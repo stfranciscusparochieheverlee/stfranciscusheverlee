@@ -21,7 +21,7 @@ blocks:
         questiontitle: Mijn mailadres
         questionrequired: true
         questionid: mail
-        placeholder: info@stfranciscus-heverlee.org
+        placeholder: catechese@stfranciscus-heverlee.org
     _template: form
 ---
 
