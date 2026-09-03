@@ -41,7 +41,7 @@ export const Form = ({ data, parentField }) => {
           })}
           <p className="inline-flex"><label>Ik ga akkoord met de <a href="/privacy">privacyovereenkomst.</a></label><input required type="checkbox" className="mx-[10px]"/><span className="text-red-500">*</span></p><br></br>
           <p className="inline-flex"><label>Ik ben geen robot.</label><input required type="checkbox" className="mx-[10px]"/><span className="text-red-500">*</span></p>          
-          <input hidden type={"text"} name="sendToEmail" value={data.NetlifyId} /><br></br><br></br>
+          <input hidden type={"text"} name="sendtoemail" value={data.NetlifyId} /><br></br><br></br>
 
           <div className="cf-turnstile"></div>
           <button type="submit" className="border-basiskleur p-2 border-2 rounded-[5px]">Versturen</button>
