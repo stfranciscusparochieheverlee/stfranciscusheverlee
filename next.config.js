@@ -37,7 +37,7 @@ module.exports = withSvgr({
     return [
       {
         source: '/(.*)',
-        headers,
+        headers
       },
     ];
   }
