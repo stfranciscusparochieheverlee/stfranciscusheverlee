@@ -2508,6 +2508,46 @@
   resolved "https://registry.yarnpkg.com/@pcode-at/tinacms-seo/-/tinacms-seo-2.0.0.tgz#72630ba2e7af034a310f3fd216099c7bdd0347cb"
   integrity sha512-Gp7v4HrjQLgEJ4pZZZX75Iie+A5ekjXRmEoi3ttpQAWQPLfL3OfQUErumY7onHl5M1Pg/fOXuAWjBWSh/Pt7uA==
 
+"@pnpm/exe.darwin-arm64@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.darwin-arm64/-/exe.darwin-arm64-12.3.2.tgz#65e5c653c8fa3e51ae544a1f17b2ce1f2b0e5029"
+  integrity sha512-6/s7P0pq+ULV5FwspTAJcGznMrGCbLOsJdD5d9YpoJONb9jI73MmNTKxlDMtlMikNNK+no8HZDWPFh7Ga1avVA==
+
+"@pnpm/exe.darwin-x64@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.darwin-x64/-/exe.darwin-x64-12.3.2.tgz#90db4c270d35948e1bb3f3b358d8597706ead479"
+  integrity sha512-PQympeXAJXS+ittZ5AHg+eZbcW89ajoCVlM23kFIcrv2eDDiciLJNk4+8AZgmMXMRAbEnjtqVjZbk3lFxHoFEw==
+
+"@pnpm/exe.linux-arm64-musl@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.linux-arm64-musl/-/exe.linux-arm64-musl-12.3.2.tgz#5633ce48600d1c1bab19a4e9e5808c2adc667e54"
+  integrity sha512-uHgJwDuohgKwlik5zGem0JIhs5c3NNzdh8hB9OW7MmD2s1L2z3/sloMknvCEdx4tne2vS9NN/yb3Enhpj9ZxwQ==
+
+"@pnpm/exe.linux-arm64@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.linux-arm64/-/exe.linux-arm64-12.3.2.tgz#9fd91e15d03d85d0d224d7fac27fd239172288c7"
+  integrity sha512-SMj5eTAWvjojqCYCXGKQO4qSanTBCe1xhtXQ0qgfBZWJcLCMJkyea65HotYEZLWmAXEDWPh87GZczcJZXEzCIQ==
+
+"@pnpm/exe.linux-x64-musl@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.linux-x64-musl/-/exe.linux-x64-musl-12.3.2.tgz#54d4f26e5e8195e4fc99f615cd7742130c022c0d"
+  integrity sha512-YYKfJubIb18iBG/pm9peDIP/STy5l5GrOQQkuFr9yOZdkc+hlYH5MBdTD8ffjTkemP9AfTYJ1R/QB/L+AZfRXA==
+
+"@pnpm/exe.linux-x64@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.linux-x64/-/exe.linux-x64-12.3.2.tgz#2f5262aac153de3819fda1512454c8cceb1a52ca"
+  integrity sha512-qc3jzpaGtMNABOG6Xl0Mee0IOXddAFiDD6sFoOqHpzcq+3YALy+6HMms47g7bYOFNSKWULqPv+SyFYJfZ8EMsA==
+
+"@pnpm/exe.win32-arm64@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.win32-arm64/-/exe.win32-arm64-12.3.2.tgz#a2ab503ccb543d0cb3eed5b52b6d2e4a43f5ab32"
+  integrity sha512-W1+M+HdebF/i3DjF2Tx9/+i7BoIJFX+AwNd3WXjWozylQQVfhBA024Ea0rrx7nwToPkS2M8sd8axpwIFLL5bbw==
+
+"@pnpm/exe.win32-x64@12.3.2":
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/exe.win32-x64/-/exe.win32-x64-12.3.2.tgz#1e1e82f5f0af1ce65d8315ada2595b1779a47fbf"
+  integrity sha512-LjekndG6dhq9g34qTNeEcynAAVypRUoYuga79lG96AA4JCKxH5dC3jx0mLRKeClQKwGVE1yXuQrCj+alVU2qQA==
+
 "@popperjs/core@^2.11.6", "@popperjs/core@^2.11.8":
   version "2.11.8"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
@@ -10261,10 +10301,19 @@ player.style@^0.3.0:
   dependencies:
     media-chrome "~4.19.0"
 
-pnpm@^11.24.0:
-  version "11.25.0"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-11.25.0.tgz#154acef3dae2922147e76249ae8cae7c3183c211"
-  integrity sha512-XN6SW08HX3Jetx+64YpC/+eEUkeJ8ZthxzHLhyHsKKruFg4BqNWvT+2ypCzb8wDv4j2zVrDUoXtNY+EfirfJVg==
+pnpm@^12.3.2:
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-12.3.2.tgz#cea52beef49294d04ea3d34dc74cede22d9a80f7"
+  integrity sha512-gvkDUxRkbuqYGt7IXHEaIatfOwVlmz+c6dJwy7k+ig9hTaF5Irrgl5AuK4YO6OttXBp+iSmaFod8DCQ/NrjhWw==
+  optionalDependencies:
+    "@pnpm/exe.darwin-arm64" "12.3.2"
+    "@pnpm/exe.darwin-x64" "12.3.2"
+    "@pnpm/exe.linux-arm64" "12.3.2"
+    "@pnpm/exe.linux-arm64-musl" "12.3.2"
+    "@pnpm/exe.linux-x64" "12.3.2"
+    "@pnpm/exe.linux-x64-musl" "12.3.2"
+    "@pnpm/exe.win32-arm64" "12.3.2"
+    "@pnpm/exe.win32-x64" "12.3.2"
 
 points-on-curve@0.2.0, points-on-curve@^0.2.0:
   version "0.2.0"
