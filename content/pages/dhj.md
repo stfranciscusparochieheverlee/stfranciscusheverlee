@@ -37,11 +37,11 @@ blocks:
 
       **10 februari 2027 Aswoensdagviering om 20 u**: ZONEVIERING in Sint-Antonius (geen viering in onze kerk)
 
-      **Vasten**: 14 februari tot 14 maart: vieringen met aandacht voor Broederlijk delen 
+      **Vasten**: 14 februari tot 14 maart: vieringen met aandacht voor Broederlijk delen
 
       **28 februari 2027 ZONEVIERING**: verzoeningsviering in Don Bosco: geen viering in onze kerk)
 
-      **25 maart 2027 Witte Donderdag**: 
+      **25 maart 2027 Witte Donderdag**:
 
       * 15 u viering met Samana
       * 20 u ZONEVIERING in onze kerk opgeluisterd door een gelegenheidskoor
@@ -62,11 +62,7 @@ blocks:
       **17 mei 2027 Pinkstermaandag**: Mariaviering met orgel en samenzang
 
       **27 juni 2027 Openluchtviering**:  Afsluitende viering van het werkjaar
-    actions:
-      - label: Action Label
-        type: button
-        icon: true
-        link: /
+    actions: []
     image:
       src: ''
     _template: hero
