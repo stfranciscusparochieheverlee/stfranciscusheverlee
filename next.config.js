@@ -21,6 +21,10 @@ module.exports = withSvgr({
         source: "/assets/:match*",
         destination: "https://assets.tina.io/:match*"
       },
+      {
+        source: "/pictures/:match*",
+        destination: "https://photos.stfranciscus-heverlee.org/:match*"
+      }
     ]  
   },
   async headers() {

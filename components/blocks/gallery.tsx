@@ -57,7 +57,7 @@ export const Gallery = ({ data, parentField }) => {
         className={`flex flex-wrap gap-x-10 gap-y-2 text-justify`}
         size="large"
       >
-        <p className="w-full"><h1>{data.title}</h1></p>
+        <p className="w-full text-2xl">{data.title}</p>
         {data.items &&
           data.items.map(function (block, i) {
             return (
